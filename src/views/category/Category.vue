@@ -1,13 +1,23 @@
 <template>
-  <h2>分类</h2>
-</template>
 
+</template>
 <script>
+
+
   export default {
-    name: "Category"
+    name: "Category",
+    data(){
+      return {
+
+      }
+    }
+
+
   }
 </script>
-
 <style scoped>
-
+.wrap{
+  height:200px;
+  background-color: #ff5777;
+}
 </style>

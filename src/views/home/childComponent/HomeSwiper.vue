@@ -1,8 +1,8 @@
 <template>
   <swiper>
-    <swiper-item v-for="ban in banners">
+    <swiper-item v-for="ban in banners" :key="ban.background">
       <a :href="ban.link">
-        <img :src="ban.image" alt="">
+        <img :src="ban.image" alt=""  >
       </a>
     </swiper-item>
   </swiper>
@@ -12,6 +12,11 @@
   import {Swiper,SwiperItem} from 'components/common/swiper'
   export default {
     name: "HomeSwiper",
+    data(){
+      return{
+
+      }
+    },
     components:{
       Swiper,SwiperItem
     },
@@ -23,6 +28,9 @@
         }
 
       }
+    },
+    methods:{
+
     }
   }
 </script>

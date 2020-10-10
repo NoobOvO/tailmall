@@ -27,10 +27,13 @@
 
 <style scoped>
   .home-recommend{
+    width: 100%;
     display: flex;
     text-align: center;
     padding: 5px;
     border-bottom: 10px solid #eee;
+
+
   }
   .home-recommend img{
     width: 80px;
